@@ -1,0 +1,5 @@
+FROM kdeorg/android-aarch64-sdk
+
+COPY ./build-scripts/crumpet-build.sh /home/user/buildscripts/crumpet-build.sh
+
+CMD /bin/bash -c '/home/user/buildscripts/crumpet-build.sh 64bit'
