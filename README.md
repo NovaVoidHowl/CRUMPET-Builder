@@ -24,7 +24,7 @@ Thanks to Leinir (<https://github.com/leinir>) for their help debugging the cmak
 
 ## Docker hub
 
-The docker containers form this project are available on docker hub
+The docker containers from this project are available on docker hub
 
 <https://hub.docker.com/r/novavoidhowl/crumpet_builder_32bit_kde>
 <https://hub.docker.com/r/novavoidhowl/crumpet_builder_64bit_kde>
