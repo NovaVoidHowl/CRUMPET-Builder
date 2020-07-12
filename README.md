@@ -22,6 +22,15 @@ Thanks to Leinir (<https://github.com/leinir>) for their help debugging the cmak
 
 ---
 
+## Docker hub
+
+The docker containers form this project are available on docker hub
+
+<https://hub.docker.com/r/novavoidhowl/crumpet_builder_32bit_kde>
+<https://hub.docker.com/r/novavoidhowl/crumpet_builder_64bit_kde>
+
+---
+
 ### APK build
 
 #### Requirements
@@ -38,11 +47,15 @@ Installed programs:
 
 _note_ These scripts can take a while depending on your internet connection and speed of computer
 
-To use this build environment.  
+To use this build environment. (local)
 
 - First run the ```build_apk_builders.sh``` script, this will make two docker images based off the kde org android build docker images  
 
 - Then run the ```build_apks.sh ~/myapks``` script, this will drop builds of the apks 32 and 64 bit in the defined directory (in this case '~/myapks')
+
+To use this build environment. (pull from docker hub)
+
+- Run the ```build_apks_dockerhub-auto-load.sh ~/myapks``` script, this will drop builds of the apks 32 and 64 bit in the defined directory (in this case '~/myapks')
 
 ---
 
