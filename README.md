@@ -5,8 +5,20 @@
 ## **NOTE**  
 
 ``` text
-This project is not made by, or endorsed by Tail Company it is simply a project made by a fan of their products
+This project is not made by, or endorsed by Tail Company.
+It is simply a project made by a fan of their products.
+
+The Tail Company git project this one references can be found
+at the following link.
 ```
+
+ <https://github.com/MasterTailer/CRUMPET>
+
+---
+
+## Shoutouts
+
+Thanks to Leinir (<https://github.com/leinir>) for their help debugging the cmake commands used in this project
 
 ---
 
