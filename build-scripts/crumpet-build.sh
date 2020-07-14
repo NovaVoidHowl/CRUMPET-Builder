@@ -10,8 +10,8 @@ git clone --recursive https://github.com/MasterTailer/CRUMPET.git
 # version lock for kirigami
 sed -i '/set(KF5_DEP_VERSION/c\set(KF5_DEP_VERSION "5.65.0")' ./CRUMPET/3rdparty/kirigami/CMakeLists.txt
 sed -i '/find_package(ECM /c\find_package(ECM 5.65.0 NO_MODULE)' ./CRUMPET/3rdparty/kirigami/CMakeLists.txt
-#patch for kirigamiplugin (temp)
-sed -i '1s;^;#include <QDebug>\n;' ./CRUMPET/3rdparty/kirigami/src/kirigamiplugin.h
+
+
 
 #folder handeling
 cd ./CRUMPET
